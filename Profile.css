@@ -1,0 +1,36 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+}
+
+li
+{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    font-family: 'Merriweather', serif;
+    background-color: #4CAF50;
+}
+
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}

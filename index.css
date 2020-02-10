@@ -1,0 +1,65 @@
+body
+{
+    background: url(/Chawintee.github.io/1_Thessalonians_5_18-3840x2160_watermarked.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+}
+
+li
+{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    font-family: 'Merriweather', serif;
+    background-color: #4CAF50;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container div
+{
+    /* width: 50%; */
+    /* height: 80%; */
+    /* background-color: violet; */
+    padding: 7px;
+    margin: 7px;
+
+}
+
+.item1 >img
+{
+    width: 63% ;
+    height: 100% ;
+    margin:3px 150px;
+}
+
+.item2 >img
+{
+    width: 63% ;
+    height: 100% ;
+    margin:3px 150px;
+}

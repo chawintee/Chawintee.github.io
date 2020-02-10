@@ -1,0 +1,63 @@
+.HHH
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+}
+
+li
+{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    font-family: 'Merriweather', serif;
+    background-color: #4CAF50;
+}
+
+table,th,tr,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+    width: 80%;
+    text-align: center;
+}
+
+thead th
+{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+
+tr td 
+{
+    text-align: center;
+    font-size: 18px;
+}
