@@ -37,5 +37,51 @@ li a:hover
 
 .container > div
 {
-    
+    width: 20%;
+    height: 20%;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+}
+
+div > .item1
+{
+    width: 100%;
+    height: 2%;
+    font-size: 30px;
+    color: blue;
+    background-color: burlywood;
+    order: 0;
+    padding: 10px;
+}
+
+div > .item2
+{
+    width: 15%;
+    height: 20%;
+    order: 0.1;
+    padding: 10px;
+}
+
+.item2 >img
+{
+    width: 50%;
+
+}
+
+div > .item9
+{
+    width: 15%;
+    height: 20%;
+    order: 0.1;
+    padding: 10px;
+}
+
+.item9 >img
+{
+    width: 50%;
+
 }
